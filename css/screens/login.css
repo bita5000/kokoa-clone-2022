@@ -1,0 +1,59 @@
+.welcome-header {
+  margin: 90px 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.welcome-header__title {
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.welcome-header__text {
+  width: 70%;
+  color: #888;
+}
+
+/* welcome-header와 login-form은 각자 다른 방식으로 지정하여 css를 작성했다.
+  내 생각엔 헤더에 작성한 코드가 더 알기 쉽고 편리해 보인다
+  하지만 아래 방식도 필요한 경우가 생길 수 있으니 잊지 말 것!
+  아래 코드도 위와 같이 수정한다면 이렇게 될 것이다.
+  ex) .login-form__input
+      .login-form__btn
+      .login-form__a */
+
+#login-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 30px;
+}
+#login-form input {
+  padding: 20px 0;
+  border: none;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+#login-form input:not([type="submit"]) {
+  /* input type이 submit이 아닐 때 아래 효과를 적용 */
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2); /* 검색어 css not */
+  transition: border-color 0.3s ease-in-out;
+}
+#login-form input::placeholder {
+  color: rgba(0, 0, 0, 0.3);
+}
+#login-form input:focus {
+  border-color: var(--yellow);
+  background-color: var(--focus-blue);
+}
+#login-form input[type="submit"] {
+  background-color: var(--yellow);
+  cursor: pointer;
+  padding: 20px 0;
+  border-radius: 5px;
+}
+#login-form a {
+  text-align: center;
+  font-size: 13px;
+  color: inherit; /* inherit 사용 시 부모 개체에 있던 색상을 상속받아 그대로 사용한다. */
+}
