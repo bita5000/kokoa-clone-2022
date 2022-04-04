@@ -19,7 +19,7 @@ body {
   margin-bottom: 20px;
 }
 .welcome-header__text {
-  width: 60%;
+  width: 70%;
   color: #888;
 }
 #login-form {
@@ -31,13 +31,27 @@ body {
   padding: 20px 0;
   border: none;
   font-size: 18px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   margin-bottom: 25px;
+}
+#login-form input:not([type="submit"]) {
+  /* input type이 submit이 아닐 때 아래 효과를 적용 */
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2); /* 검색어 css not */
   transition: border-color 0.3s ease-in-out;
 }
 #login-form input::placeholder {
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.3);
 }
 #login-form input:focus {
   border-color: var(--yellow);
+}
+#login-form input[type="submit"] {
+  background-color: var(--yellow);
+  cursor: pointer;
+  padding: 20px 0;
+  border-radius: 5px;
+}
+#login-form a {
+  text-align: center;
+  font-size: 13px;
+  color: inherit; /* inherit 사용 시 부모 개체에 있던 색상을 상속받아 그대로 사용한다. */
 }
