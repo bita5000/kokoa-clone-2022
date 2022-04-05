@@ -56,4 +56,5 @@
   text-align: center;
   font-size: 13px;
   color: inherit; /* inherit 사용 시 부모 개체에 있던 색상을 상속받아 그대로 사용한다. */
+  text-decoration: underline;
 }
