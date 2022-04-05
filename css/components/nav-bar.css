@@ -1,6 +1,10 @@
 .nav {
   background-color: #f9f9fa;
   padding: 20px 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 .nav__list {
   display: flex;
@@ -12,4 +16,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.nav__link img {
+  width: 120%;
 }
