@@ -20,3 +20,30 @@
 .nav__link img {
   width: 120%;
 }
+.nav__link {
+  position: relative;
+}
+.nav__notification {
+  background-color: tomato;
+  width: 18px;
+  height: 18px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 600;
+  font-size: 12px;
+  position: absolute;
+  top: -3px;
+  right: -12px;
+}
+.nav__check-info {
+  width: 5px;
+  height: 5px;
+  display: block;
+  background-color: tomato;
+  border-radius: 2.5px;
+  position: absolute;
+  right: -4px;
+}
