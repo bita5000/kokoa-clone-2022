@@ -12,3 +12,6 @@
 #friends-display-link img:last-child {
   margin-left: 5px;
 }
+.friends-screen {
+  padding: 0 var(--horizontal-space);
+}
