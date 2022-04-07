@@ -17,3 +17,7 @@ body {
   padding-top: 34px; /* satus bar에 적용된 flex 때문에 하단 컨텐츠 물림 때문에 설정함 */
   color: #2e363e;
 }
+
+.main-screen {
+  padding: 0 var(--horizontal-space);
+}
