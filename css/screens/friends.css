@@ -13,5 +13,18 @@
   margin-left: 5px;
 }
 .friends-screen {
-  padding: 0 var(--horizontal-space);
+  padding: var(--horizontal-space);
+}
+.friends-screen__channel-header {
+  padding-top: var(--horizontal-space);
+  margin-top: var(--horizontal-space);
+  border-top: 1px solid #ececec;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.friends-screen__channel-header--title {
+  font-size: 18px;
+  color: #999;
+  margin-bottom: var(--horizontal-space);
 }
