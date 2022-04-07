@@ -28,12 +28,7 @@
   top: -3px;
   right: -12px;
 }
-.nav__check-info {
-  width: 5px;
-  height: 5px;
-  display: block;
-  background-color: tomato;
-  border-radius: 2.5px;
+.nav__noti-badge {
   position: absolute;
   right: -4px;
 }

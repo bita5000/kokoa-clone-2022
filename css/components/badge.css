@@ -1,4 +1,4 @@
-.badge {
+.chat-badge {
   background-color: tomato;
   width: 18px;
   height: 18px;
@@ -9,4 +9,12 @@
   color: #fff;
   font-weight: 600;
   font-size: 12px;
+}
+
+.noti-badge {
+  width: 5px;
+  height: 5px;
+  display: block;
+  background-color: tomato;
+  border-radius: 2.5px;
 }

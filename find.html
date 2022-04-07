@@ -25,51 +25,33 @@
         </div>
 
         <header class="screen-header">
-            <h1 class="screen-header__title">Friends</h1>
+            <h1 class="screen-header__title">Find</h1>
             <div class="screen-header__icons">
                 <span><img src="images/icon-search-off.svg"/></span>
-                <span><img src="images/icon-music.svg"/></span>
-                <span><img src="images/icon-settings.svg"/></span>
+                <span>
+                    <img src="images/icon-settings.svg"/>
+                    <span class="screen-header__setting-noti-badge noti-badge"></div>
+                </span>
             </div>
         </header>
 
-        <a id="friends-display-link">
-            <img src="images/icon-info-circle.svg"/>
-            Friends' Names Display
-            <img src="images/icon-chevron-righ-16.svg"/>
-        </a>
-
         <main class="main-screen">
-            <div class="user-component">
-                <div class="user-component__column">
-                    <img src="images/profile-img.jpeg" class="user-component__avatar"/>
-                    <div class="user-component__text">
-                        <h4 class="user-component__title">bboyami</h4>
-                        <!-- <h6 class="user-component__subtitle">whatever</h6> -->
-                    </div>
+            <div class="find-icons">
+                <div class="find-icons__icon">
+                    <img src="images/icon-QRcode.svg"/>
+                    <span>QR code</span>
                 </div>
-                <div class="user-component__column"></div>
-            </div>
-
-            <div class="friends-screen__channel">
-                <div class="friends-screen__channel-header">
-                    <span class="friends-screen__channel-header--title">Channel</span>
-                    <img src="images/icon-chevron-top-16.svg"/>
+                <div class="find-icons__icon">
+                    <img src="images/icon-contact.svg"/>
+                    <span>Add by Contacts</span>
                 </div>
-                <div class="user-component">
-                    <div class="user-component__column">
-                        <img src="images/channel-profile-img.svg" class="user-component__avatar user-component__avatar-sm"/>
-                        <div class="user-component__text">
-                            <h4 class="user-component__title user-component__title--not-bold">Channel</h4>
-                            <!-- <h6 class="user-component__subtitle">whatever</h6> -->
-                        </div>
-                    </div>
-                    <div class="user-component__column">
-                        <div class="user-component__column-row-center">
-                            <span>2</span>
-                            <img src="images/icon-chevron-righ-16.svg"/>
-                        </div>
-                    </div>
+                <div class="find-icons__icon">
+                    <img src="images/icon-ID.svg"/>
+                    <span>Add by ID</span>
+                </div>
+                <div class="find-icons__icon">
+                    <img src="images/icon-invite.svg"/>
+                    <span>Invite</span>
                 </div>
             </div>
         </main>
@@ -79,7 +61,7 @@
             <ul class="nav__list">
                 <li class="nav__btn">
                     <a class="nav__link" href="friends.html">
-                       <img src="images/icon-user-on.svg"/>
+                       <img src="images/icon-user-off.svg"/>
                     </a>
                 </li>
                 <li class="nav__btn">
@@ -90,7 +72,7 @@
                 </li>
                 <li class="nav__btn">
                     <a class="nav__link" href="find.html">
-                        <img src="images/icon-search-off.svg"/>
+                        <img src="images/icon-search-on.svg"/>
                     </a>
                 </li>
                 <li class="nav__btn">
