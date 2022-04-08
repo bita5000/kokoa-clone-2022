@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/0ac33a93c4.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/styles.css">
+        <title>Friends - Kokoa clone</title>
+    </head>
+    <body>
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <span>No Service</span>
+                <img src="images/icon-status-bar-wifi.svg"/>
+            </div>
+            <div class="status-bar__column">
+                <span>18:43</span>
+            </div>
+            <div class="status-bar__column">
+                <span>10%</span>
+                <img src="images/icon-battery.svg"/>
+                <img src="images/icon-charging.svg"/>
+            </div>
+        </div>
+
+        <header class="screen-header">
+            <h1 class="screen-header__title">More</h1>
+            <div class="screen-header__icons">
+                <span><img src="images/icon-search-off.svg"/></span>
+                <span><img src="images/icon-music.svg"/></span>
+                <span><img src="images/icon-settings.svg"/></span>
+            </div>
+        </header>
+
+        <main class="main-screen">
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img src="images/profile-img.jpeg" class="user-component__avatar-xl"/>
+                    <div class="user-component__text">
+                        <h4 class="user-component__title">bboyami</h4>
+                        <h6 class="user-component__subtitle">
+                            +82 10 4015 1552
+                            <img src="images/icon-exclamation.svg"/>
+                        </h6>
+                    </div>
+                </div>
+                <div class="user-component__column">
+                    <img src="images/icon-user-note.svg"/>
+                </div>
+            </div>
+            <div class="user-settings">
+                <div class="user-settings__box">
+                    <img src="images/icon-calendar.svg"/>
+                    Calendar
+                </div>
+                <div class="user-settings__box">
+                    <img src="images/icon-talk-drive.svg"/>
+                    Talk Drive
+                </div>
+                <div class="user-settings__box">
+                    <img src="images/icon-emoticons.svg"/>
+                    Emoticons
+                </div>
+                <div class="user-settings__box">
+                    <img src="images/icon-themes.svg"/>
+                    Themes
+                </div>
+                <div class="user-settings__box">
+                    <img src="images/icon-account.svg"/>
+                    Account
+                </div>
+                <div class="user-settings__box">
+                    <img src="images/icon-openchat.svg"/>
+                    Openchat
+                </div>
+            </div>
+            <div class="suggestions">
+                <h5 class="suggestions__title">Suggestions</h5>
+                <div class="suggestions__box-span">
+                    <div class="suggestions__box">
+                        <img src="images/icon-kokoa-story.svg"/>
+                        Kokoa Story
+                    </div>
+                    <div class="suggestions__box">
+                        <img src="images/icon-kokoa-friends.svg"/>
+                        Kokoa friends
+                    </div>
+                    <div class="suggestions__box">
+                        <img src="images/icon-friends-gem.svg"/>
+                        Friends Gem
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- 단축키 nav>ul>li*4>a -->
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__btn">
+                    <a class="nav__link" href="friends.html">
+                       <img src="images/icon-user-on.svg"/>
+                    </a>
+                </li>
+                <li class="nav__btn">
+                    <a class="nav__link" href="chats.html">
+                        <span class="nav__notification chat-badge">4</span>
+                        <img src="images/icon-chat-off.svg">
+                    </a>
+                </li>
+                <li class="nav__btn">
+                    <a class="nav__link" href="find.html">
+                        <img src="images/icon-search-off.svg"/>
+                    </a>
+                </li>
+                <li class="nav__btn">
+                    <a class="nav__link" href="more.html">
+                        <span class="nav__noti-badge noti-badge"></span>
+                        <img src="images/icon-ellipsis-off.svg"/>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </body>
+</html>

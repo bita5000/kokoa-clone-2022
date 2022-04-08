@@ -50,4 +50,9 @@
 .user-component__subtitle {
   margin-top: 6px;
   color: #888;
+  display: flex;
+  align-items: center;
+}
+.user-component__subtitle img {
+  margin-left: 4px;
 }
