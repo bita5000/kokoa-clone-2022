@@ -18,6 +18,7 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   padding-top: 34px; /* satus bar에 적용된 flex 때문에 하단 컨텐츠 물림 때문에 설정함 */
   color: #2e363e;
+  height: 1000vh;
 }
 
 .main-screen {
