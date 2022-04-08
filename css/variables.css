@@ -2,4 +2,6 @@
   --yellow: #fed800;
   --focus-blue: rgba(0, 162, 255, 0.089);
   --horizontal-space: 25px;
+  --border-line: 1px solid #e9e9e9;
+  --gray-text: #b9b9c2;
 }

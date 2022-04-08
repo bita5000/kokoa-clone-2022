@@ -17,7 +17,7 @@
 .friends-screen__channel-header {
   padding-top: var(--horizontal-space);
   margin-top: var(--horizontal-space);
-  border-top: 1px solid #ececec;
+  border-top: var(--border-line);
   display: flex;
   justify-content: space-between;
   align-items: baseline;
