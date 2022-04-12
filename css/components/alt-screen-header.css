@@ -4,19 +4,11 @@
   padding: 8px var(--horizontal-space);
   align-items: center;
   margin-bottom: 15px;
-  position: relative;
 }
-.alt-header__column,
-.alt-header__column-center {
-  top: 0;
+.alt-header__column {
+  width: 33%;
   font-size: 26px;
   font-weight: 700;
-}
-.alt-header__column-center {
-  position: absolute;
-  left: 50%;
-  top: 23%;
-  transform: translateX(-50%);
 }
 .alt-header__column img {
   width: 36px;
@@ -27,8 +19,13 @@
 .alt-header__column:first-child {
   margin-right: auto;
 }
+.alt-header__column:nth-child(2) {
+  text-align: center;
+}
 .alt-header__column:last-child {
   margin-left: auto;
+  display: flex;
+  justify-content: end;
 }
 .settings-column__list-section img:last-child {
   width: 24px;

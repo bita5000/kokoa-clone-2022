@@ -1,3 +1,8 @@
+.alt-header {
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+}
 .settings-column__list {
   display: flex;
   justify-content: space-between;
