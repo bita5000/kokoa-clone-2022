@@ -1,10 +1,10 @@
-.screen-header__icons:nth-child(2) {
+.screen-header__icons span:last-child {
   position: relative;
 }
 .screen-header__setting-noti-badge {
   position: absolute;
-  top: -2px;
-  right: -2px;
+  left: 80px;
+  top: -30px;
 }
 .find-icons {
   display: flex;
@@ -90,7 +90,7 @@
   position: relative;
 }
 .open-post__img img {
-  border-radius: 20px;
+  border-radius: 17px;
 }
 .open-post__likes {
   position: absolute;
