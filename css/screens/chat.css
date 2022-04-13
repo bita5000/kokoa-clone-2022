@@ -24,3 +24,35 @@
   border-radius: 20px;
   background-color: rgba(0, 0, 0, 0.18);
 }
+.message-row {
+  width: 100%;
+  margin-top: 24px;
+  display: flex;
+}
+.message-row img {
+  width: 60px;
+  border-radius: 20px;
+  margin-right: 16px;
+}
+.message__author {
+  opacity: 0.7;
+  font-size: 14px;
+  margin-bottom: 10px;
+  display: block;
+}
+.message__info {
+  display: flex;
+  align-items: flex-end;
+}
+.message__bubble {
+  background-color: #fff;
+  padding: 12px 14px;
+  border-radius: 14px;
+  border-top-left-radius: 0px;
+  margin-right: 4px;
+  font-size: 18px;
+}
+.message__time {
+  opacity: 0.6;
+  font-size: 12px;
+}
