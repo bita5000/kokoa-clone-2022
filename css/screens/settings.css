@@ -1,3 +1,15 @@
+.settings-main .alt-header,
+.settings-main .status-bar {
+  position: fixed;
+  background-color: #fff;
+}
+.settings-main .alt-header {
+  margin-top: -2px;
+}
+.main-screen {
+  margin-top: 60px;
+}
+
 .alt-header {
   position: fixed;
   width: 100%;
