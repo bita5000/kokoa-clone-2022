@@ -28,6 +28,7 @@
   width: 100%;
   margin-top: 24px;
   display: flex;
+  margin-bottom: 24px;
 }
 .message-row img {
   width: 60px;
@@ -47,12 +48,22 @@
 .message__bubble {
   background-color: #fff;
   padding: 12px 14px;
-  border-radius: 14px;
-  border-top-left-radius: 0px;
-  margin-right: 4px;
+  border-radius: 0 14px 14px 14px;
+  margin-right: 8px;
   font-size: 18px;
 }
 .message__time {
   opacity: 0.6;
   font-size: 12px;
+}
+.message-row__own {
+  justify-content: flex-end;
+}
+.message-row__own .message__bubble {
+  background-color: var(--yellow);
+  border-radius: 14px 0 14px 14px;
+  margin: 0 0 0 8px;
+}
+.message-row__own .message__info {
+  flex-direction: row-reverse;
 }
