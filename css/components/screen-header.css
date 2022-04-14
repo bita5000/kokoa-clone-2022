@@ -20,6 +20,6 @@
     transform: rotateZ(360deg);
   }
 }
-.screen-header__icons .setting-icon {
+.screen-header__icons:hover .setting-icon {
   animation: rotateCog 2s ease-in-out infinite;
 }
