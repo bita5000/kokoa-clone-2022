@@ -27,3 +27,16 @@
   color: #999;
   margin-bottom: var(--horizontal-space);
 }
+#splash-screen {
+  background-color: var(--yellow);
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#splash-screen img {
+  width: 160px;
+}

@@ -1,6 +1,5 @@
 .chat-screen {
   background-color: #c6dae9;
-  height: 1000vh;
 }
 .chat-screen .alt-header,
 .chat-screen .status-bar {
@@ -21,6 +20,8 @@
   text-align: center;
   padding: 8px 14px;
   color: #fff;
+  font-size: 14px;
+  font-weight: 300;
   border-radius: 20px;
   background-color: rgba(0, 0, 0, 0.18);
 }
@@ -105,6 +106,9 @@
   padding: 10px 16px;
   font-size: 16px;
   box-sizing: border-box;
+}
+.reply input::placeholder {
+  color: #999;
 }
 .reply__column:last-child > img,
 .reply__column:last-child button {
