@@ -10,11 +10,22 @@
 .chat-screen .alt-header {
   margin-top: -2px;
 }
+@keyframes fadeIn {
+  from {
+    transform: translateY(10px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
 .main-chat {
   margin-top: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  animation: fadeIn 0.6s linear;
 }
 .time-stamp {
   text-align: center;
@@ -89,6 +100,7 @@
   align-items: center;
   padding: 6px 16px;
   box-sizing: border-box;
+  transition: all 0.5s ease-in-out;
 }
 .reply .reply__column:first-child {
   width: 40px;
@@ -124,4 +136,22 @@
   background-color: rgba(0, 0, 0, 0);
   border: none;
   cursor: pointer;
+}
+/* 
+    reply:focus-within이 참일 경우, .reply__column:first-child에서 opacity: 0;이 실행됨
+*/
+.reply:focus-within .reply__column:first-child,
+.reply:focus-within img {
+  opacity: 0;
+}
+.reply:focus-within input {
+  width: 95vw;
+  transform: translateX(-9%) translateY(-90px);
+}
+.reply .reply__column:first-child,
+.reply img {
+  transition: opacity 0.3s ease-in-out;
+}
+.reply:focus-within {
+  transform: translateY(80px);
 }

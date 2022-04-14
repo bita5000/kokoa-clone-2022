@@ -12,3 +12,14 @@
 .screen-header__icons img {
   margin-left: 15px;
 }
+@keyframes rotateCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+.screen-header__icons .setting-icon {
+  animation: rotateCog 2s ease-in-out infinite;
+}
